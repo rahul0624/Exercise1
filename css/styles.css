@@ -1,0 +1,89 @@
+.box1 {
+  width: 400px;
+  border: solid #333333;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.c-tracker-heading {
+  width: max-content;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+
+.c-count-heading {
+  width: max-content;
+  margin: 0 auto;
+  font-size: 18px;
+  position: relative;
+  top: 40px;
+}
+
+.c-count {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.buttons {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.reset-button {
+  width: 80px;
+  height: 40px;
+  background-color: #d81010;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  position: relative;
+  right: 10px;
+  top: 60px;
+}
+
+.click-button {
+  width: 80px;
+  height: 40px;
+  background-color: #026f02;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  position: relative;
+  left: 10px;
+  top: 60px;
+}
+
+@media only screen and (max-width: 500px) {
+  .box1 {
+    width: 100%;
+    height: 210px;
+  }
+
+  .reset-button {
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    left: 8px;
+    
+
+  }
+
+  .click-button {
+    width: 95%;
+    height: 40px;
+    position: relative;
+    left: 8px;
+    top: 70px;
+    
+  }
+
+  .buttons {
+    width: 95%;
+  }
+}
